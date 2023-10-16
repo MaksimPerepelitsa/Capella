@@ -53,6 +53,8 @@
               id="6bb79d5b-c8c2-4d3b-8811-da7a3c851805" involved="#870c6829-0e88-49f3-b1fb-0046edb89dd4"/>
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
               id="6cc1953f-8e96-496d-901e-8179eebd5f55" involved="#51b7b328-6689-40b0-978d-fca474ee21db"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="4b015dac-31e6-4b47-84f2-9dc6de332c06" involved="#72423687-89a0-47aa-935a-7608e293f73d"/>
         </ownedOperationalCapabilities>
       </ownedAbstractCapabilityPkg>
       <ownedInterfacePkg xsi:type="org.polarsys.capella.core.data.cs:InterfacePkg"
@@ -67,10 +69,14 @@
             name="OA 1" abstractType="#870c6829-0e88-49f3-b1fb-0046edb89dd4"/>
         <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="aadf5fd1-7e19-46ad-8639-104dd7a165ba"
             name="OA 2" abstractType="#51b7b328-6689-40b0-978d-fca474ee21db"/>
+        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="ac9da520-e1f1-4f9f-9431-12b8978c95d4"
+            name="OA 4" abstractType="#72423687-89a0-47aa-935a-7608e293f73d"/>
         <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="870c6829-0e88-49f3-b1fb-0046edb89dd4"
             name="OA 1" actor="true" human="true"/>
         <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="51b7b328-6689-40b0-978d-fca474ee21db"
             name="OA 2" actor="true" human="true"/>
+        <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="72423687-89a0-47aa-935a-7608e293f73d"
+            name="OA 4" actor="true" human="true"/>
       </ownedEntityPkg>
     </ownedArchitectures>
     <ownedArchitectures xsi:type="org.polarsys.capella.core.data.ctx:SystemAnalysis"
