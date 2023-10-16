@@ -46,7 +46,13 @@
             id="72f0e20b-26a3-4804-94e0-60ab68600508" name="Root Operational Activity"/>
       </ownedFunctionPkg>
       <ownedAbstractCapabilityPkg xsi:type="org.polarsys.capella.core.data.oa:OperationalCapabilityPkg"
-          id="85c6ac1b-0d8b-49b2-af43-336dbf5ee0fa" name="Operational Capabilities"/>
+          id="85c6ac1b-0d8b-49b2-af43-336dbf5ee0fa" name="Operational Capabilities">
+        <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
+            id="d6b721ea-e1ed-447f-acf8-ca224d2f1a83" name="OperationalCapability 1">
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="6bb79d5b-c8c2-4d3b-8811-da7a3c851805" involved="#870c6829-0e88-49f3-b1fb-0046edb89dd4"/>
+        </ownedOperationalCapabilities>
+      </ownedAbstractCapabilityPkg>
       <ownedInterfacePkg xsi:type="org.polarsys.capella.core.data.cs:InterfacePkg"
           id="21616d93-42ab-4400-8b73-9af530324809" name="Interfaces"/>
       <ownedDataPkg xsi:type="org.polarsys.capella.core.data.information:DataPkg"
@@ -54,7 +60,12 @@
       <ownedRolePkg xsi:type="org.polarsys.capella.core.data.oa:RolePkg" id="e6ee8039-c925-483d-bf73-273c4de49ab5"
           name="Roles"/>
       <ownedEntityPkg xsi:type="org.polarsys.capella.core.data.oa:EntityPkg" id="8c54cf8b-62f4-4e4e-89fd-9f79c288fdd3"
-          name="Operational Entities"/>
+          name="Operational Entities">
+        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="9820ca11-a5d4-40f2-a452-122ba0f9ac7e"
+            name="OA 1" abstractType="#870c6829-0e88-49f3-b1fb-0046edb89dd4"/>
+        <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="870c6829-0e88-49f3-b1fb-0046edb89dd4"
+            name="OA 1" actor="true" human="true"/>
+      </ownedEntityPkg>
     </ownedArchitectures>
     <ownedArchitectures xsi:type="org.polarsys.capella.core.data.ctx:SystemAnalysis"
         id="1e60aad3-d24e-4181-ab52-e505f3b495af" name="System Analysis">
