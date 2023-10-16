@@ -56,6 +56,11 @@
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
               id="4b015dac-31e6-4b47-84f2-9dc6de332c06" involved="#72423687-89a0-47aa-935a-7608e293f73d"/>
         </ownedOperationalCapabilities>
+        <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
+            id="fd0c5cb0-bc30-4eda-8c35-296f94330c83" name="Возможность 2">
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="8d52ac36-1139-4d51-b33d-ebb6da7e0ca8"/>
+        </ownedOperationalCapabilities>
       </ownedAbstractCapabilityPkg>
       <ownedInterfacePkg xsi:type="org.polarsys.capella.core.data.cs:InterfacePkg"
           id="21616d93-42ab-4400-8b73-9af530324809" name="Interfaces"/>
