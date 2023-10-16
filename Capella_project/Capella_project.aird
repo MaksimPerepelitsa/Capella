@@ -11,7 +11,7 @@
     </ownedViews>
     <ownedViews xmi:type="viewpoint:DView" uid="_icdVUGwREe6-U8CEACh0Hw">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']"/>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_U8awYGwUEe6h7ouPMWRIsQ" name="[OCB] Operational Capabilities" repPath="#_U8H1cGwUEe6h7ouPMWRIsQ" changeId="1697458273675">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_U8awYGwUEe6h7ouPMWRIsQ" name="[OCB] Operational Capabilities" repPath="#_U8H1cGwUEe6h7ouPMWRIsQ" changeId="1697467338837">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']"/>
         <target xmi:type="org.polarsys.capella.core.data.oa:OperationalCapabilityPkg" href="Capella_project.capella#85c6ac1b-0d8b-49b2-af43-336dbf5ee0fa"/>
       </ownedRepresentationDescriptors>
@@ -154,7 +154,7 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']/@defaultLayer/@nodeMappings[name='COC_OperationalCapabilities']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" uid="_FShUQGwdEe6ChukQ1Y0dEg" name="OperationalCapability 2" outgoingEdges="_Gbz3lmwdEe6ChukQ1Y0dEg" width="7" height="7" resizeKind="NSEW">
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_FShUQGwdEe6ChukQ1Y0dEg" name="Возможность 2" outgoingEdges="_Gbz3lmwdEe6ChukQ1Y0dEg" width="7" height="7" resizeKind="NSEW">
       <target xmi:type="org.polarsys.capella.core.data.oa:OperationalCapability" href="Capella_project.capella#fd0c5cb0-bc30-4eda-8c35-296f94330c83"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.oa:OperationalCapability" href="Capella_project.capella#fd0c5cb0-bc30-4eda-8c35-296f94330c83"/>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
@@ -194,7 +194,7 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']/@defaultLayer/@edgeMappings[name='COC_EntityOperationalCapabilityInvolvement']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_GAM5oGwdEe6ChukQ1Y0dEg" name="OA 3" incomingEdges="_Gbz3lmwdEe6ChukQ1Y0dEg">
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_GAM5oGwdEe6ChukQ1Y0dEg" name="Актор 3" incomingEdges="_Gbz3lmwdEe6ChukQ1Y0dEg">
       <target xmi:type="org.polarsys.capella.core.data.oa:Entity" href="Capella_project.capella#9a067df0-a330-4ec6-88d6-5c5b9264f7ac"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.oa:Entity" href="Capella_project.capella#9a067df0-a330-4ec6-88d6-5c5b9264f7ac"/>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
